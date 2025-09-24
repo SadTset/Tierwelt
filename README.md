@@ -1,5 +1,5 @@
 Meine Webseite:
-https://github.com/SadTset/Tierwelt.git
+(https://sadtset.github.io/Tierwelt/)
 
 Thema:
 Tiere die aus Japan stammen.
