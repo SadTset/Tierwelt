@@ -1,5 +1,6 @@
  body {background-color: #ffb7cf;
             }
+
 .dropbtn { background-color: #69e2b6;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
@@ -57,4 +58,10 @@ h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
     font-size: 30px;
     text-align: center;
 
+}
+
+img {width: 500px;
+
+}
+figure {padding: 100px;
 }
