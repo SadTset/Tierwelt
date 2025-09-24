@@ -8,7 +8,7 @@ Seitenübersicht & Navigationskonzept:
 
 
 genutzte Quellen (Bilder, Texte - Urheberrecht beachten!):
-Wikipedia, japan-avenue.com, zicasso.com/a/japan
+Wikipedia, japan-avenue.com, zicasso.com/a/japan, offbeatjapan.com/
 
 Besonderheiten/Extras (z.B. Galerie, Animationen):
 
