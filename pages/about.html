@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <link rel="stylesheet" href="/css/style.css">
     <style type="text/css">
         body {background-color: rgb(197, 165, 116);
 
@@ -18,6 +19,31 @@
                 background-color: antiquewhite;
 
         }
+#navi {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#navi li {
+  float: left;
+}
+
+#navi li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navi li a:hover {
+  background-color: #111111;
+}
+
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,5 +51,11 @@
 </head>
 <body>
     <header>Weeb Zoo</header>
+
+      <ul id="navi">
+        <li><a href="/index.html">Startseite</a></li>
+    <li><a href="Content.html">Inhalt</a></li>
+  <li><a href="Contact.html">Kontakt</a></li>
+</ul>
 </body>
 </html>
