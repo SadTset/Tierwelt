@@ -1,186 +1,260 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <style type="text/css">
-         body {background-color: rgb(197, 165, 116);
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inhalt – Weeb Zoo</title>
+  <style>
+   
+    body { background-color: rgb(197,165,116); margin:0;
+ }
+    header {
+      font-family: 'Lucida Sans','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+      font-size: 30px; font-weight: bold; text-align: center;
+      width: 250px; border: 10px groove beige; background: antiquewhite;
+      margin: 20px 0px 0px 50px
+    }
+    #navi { list-style: none; margin: 20px; padding: 0; overflow: hidden; background: #333; }
+    #navi li { float: left; }
+    #navi li a {
+      font-family: 'Lucida Sans','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+      display: block; color: #fff; text-align: center; padding: 14px 16px; text-decoration: none;
+    }
+    #navi li a:hover { background: #111; }
 
-        }
-        header {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                font-size: 30px;
-                font-weight: bold;
-                text-align: center;
-                width: 250px;
-                border: 100px 100px;
-                border-color: beige;
-                border-width: 10px;
-                border-style: groove;
-                background-color: antiquewhite;
+   
+    h2 { font-size: 30px; margin: 8px 0 6px; }
+    figcaption {
+      font-family: 'Lucida Sans','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+      font-size: 18px; line-height: 1.45;
+    }
+    small a { color:#1a1a1a; }
 
-        }
-h2 {font-size: 30px;
+    img { width: 50%; max-width: 100%; height: auto; border-radius: 8px; display:block; }
+    figure { margin: 60px auto; clear: both; max-width: 1000px; }
 
+  
+    .align-left  { margin: 60px auto 60px 100px; }
+    .align-right { margin: 60px 100px 60px auto; }
+
+    .side-by-side{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: nowrap;    
+    }
+    .side-by-side img{
+      width: 48%;
+      height: auto;
+    }
+
+    footer {
+      font-family: 'Lucida Sans','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+      text-align: center; padding: 15px; margin-top: 50px;
+      background: #333; color: #fff; font-size: 14px;
+    }
+
+    @media (max-width: 700px){
+      .align-left, .align-right { margin: 40px 20px; }
+      .side-by-side{ flex-wrap: wrap; }
+      .side-by-side img{ width: 100%; }
+    }
+
+ table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: 'Lucida Sans','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+  background: #f9f9f9;
 }
 
-figcaption {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-          font-size: 20px;
-}
- #navi {
-  list-style-type: none;
-  margin: 20px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
 }
 
-#navi li {
-  float: left;
+th {
+  background: #333;
+  color: #fff;
 }
 
-#navi li a {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+tr:nth-child(even) {
+  background: #eee;
 }
-
-#navi li a:hover {
-  background-color: #111111;
-}
-
-img {width: 600px;
-    
-}
-#tanuki {
-}
-#deer {float: left;
-        
-}
-
-#yokai {margin: 200px;
-
-}
-
-#fox {float: right;
-    margin-top: 100px;
-
-}
-
-#ezo {float: right;
-  margin-top: 100px;
-
-}
-
-#monkey {float: right;
-          
-}
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Inhalt</title>
+  </style>
 </head>
 <body>
-    <header>Weeb Zoo</header>
+  <header>Weeb Zoo</header>
 
-          <ul id="navi">
-        <li><a href="../index.html">Startseite</a></li>
+  <ul id="navi">
+    <li><a href="../index.html">Startseite</a></li>
     <li><a href="about.html">Über Uns</a></li>
-  <li><a href="Contact.html">Kontakt</a></li>
-</ul>
+    <li><a href="Contact.html">Kontakt</a></li>
+  </ul>
 
-<figure>
-    <figcaption>
-        <h2>Tanuki (Japanischer Marderhund)</h2>
-        <p>
-            Der Tanuki, auch japanischer Marderhund genannt, sieht einem Waschbären ähnlich, gehört aber zur Familie der Hunde. 
-            In der Folklore ist er ein schelmischer Yokai, der sich verwandeln und Menschen Streiche spielen kann. 
-            Tanukis gelten als Symbole für Glück und Wohlstand, oft dargestellt mit einem großen Bauch und einer Sake-Flasche. 
-            In der Natur sind sie anpassungsfähig und leben sowohl in Wäldern als auch in der Nähe menschlicher Siedlungen.
-        </p>
-        <p><small>Quelle: <a href="https://sakura.co/blog/tanuki-magic-exploring-japans-raccoon-dog-folklore" target="_blank">sakura.co</a>, 
-        <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog" target="_blank">Wikipedia</a></small></p>
-    </figcaption>
-    <img id="tanuki" src="../pics/Tanuki_in_Higashiyama_Zoo_-_2.jpg" alt="Japanischer Waschbärhund">
-    <img id="tanuki2" src="../pics/yokai_tanuki_be0e5274-00a7-49bd-8905-8496758ecac9_1024x1024.jpg" alt="Tanuki in der Folklore">
   
-</figure>
-
-<figure>
-   <figcaption>
-        <h2>Sika-Hirsch</h2>
-        <p>
-            Der Sika-Hirsch (*Cervus nippon*) ist in Japan weit verbreitet und behält seine weißen Flecken auch im Erwachsenenalter. 
-            Besonders bekannt ist er in Nara, wo die Hirsche frei durch den Park laufen und von Besuchern gefüttert werden. 
-            In der Shinto-Tradition gelten sie als heilige Boten der Götter.
-        </p>
-        <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Sika_deer" target="_blank">Wikipedia</a>, 
-        <a href="https://www.japan.travel/en/uk/inspiration/nara-park-deer/" target="_blank">japan.travel</a></small></p>
-    </figcaption>
-    <img id="deer" src="../pics/Cervus_nippon_002.jpg" alt="Sika Reh">
-</figure>
-
-<figure>
-        <figcaption>
-        <h2>Japanischer Fuchs</h2>
-        <p>
-            In Japan kommt vor allem der Ezo-Rotfuchs (*Vulpes vulpes schrencki*) auf Hokkaido vor. 
-            Füchse sind eng mit Mythologie verbunden – die Kitsune gelten als magische Wesen mit der Fähigkeit, Gestalt zu wandeln. 
-            Sie werden oft mit dem Gott Inari in Verbindung gebracht und als Schutzgeister verehrt. 
-            Ein bekannter Ort, um Füchse hautnah zu erleben, ist das Zao Fox Village.
-        </p>
-        <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Ezo_red_fox" target="_blank">Wikipedia</a>, 
-        <a href="https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/red-fox" target="_blank">japan-experience.com</a></small></p>
-    </figcaption>
-    <img id="fox" src="../pics/Vulpes_vulpes_laying_in_snow.jpg" alt="Rotfuchs">
-    <img id="fox2" src="../pics/Ezo_red_fox,_Japan;_February_2021_(13,_cropped).jpg" alt="Ezo Rotfuchs">
-
-</figure>
-
-<figure>
+  <figure class="align-left">
     <figcaption>
-        <h2>Japanischer Schneeaffe</h2>
-        <p>
-            Die Japanmakaken, auch Schneeaffen genannt, sind berühmt dafür, dass sie heiße Quellen im Winter nutzen, um sich aufzuwärmen. 
-            Besonders bekannt ist das Jigokudani Monkey Park in Nagano. 
-            Sie sind die nördlichst lebenden Primaten (außer dem Menschen) und haben ein dickes Fell, das sie vor Kälte schützt.
-        </p>
-        <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Japanese_macaque" target="_blank">Wikipedia</a>, 
-        <a href="https://www.japan.travel/en/uk/inspiration/jigokudani-monkey-park/" target="_blank">japan.travel</a></small></p>
+      <h2>Tanuki (Japanischer Marderhund)</h2>
+      <p>
+        Der Tanuki, auch japanischer Marderhund, sieht einem Waschbären ähnlich, gehört jedoch zur Familie der Hunde.
+        In der Folklore ist er ein schelmischer <em>Yōkai</em>, der sich verwandeln und Menschen Streiche spielen kann;
+        oft als Glücksbringer dargestellt. In der Natur ist er anpassungsfähig und lebt
+        sowohl in Wäldern als auch in der Nähe menschlicher Siedlungen.
+      </p>
+      <p><small>Quelle:
+        <a href="https://sakura.co/blog/tanuki-magic-exploring-japans-raccoon-dog-folklore" target="_blank">sakura.co</a>,
+        <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog" target="_blank">Wikipedia</a>
+      </small></p>
     </figcaption>
-     <img id="monkey" src="../pics/A-snow-monkey-in-Jigokudani-Yaen-Koen-aka-snow-monkey-park-in-Japan.jpg" alt="Japanischer Schneeaffe">
-</figure>
+    <div class="side-by-side">
+      <img src="../pics/Tanuki_in_Higashiyama_Zoo_-_2.jpg" alt="Japanischer Marderhund (Tanuki)">
+      <img src="../pics/yokai_tanuki_be0e5274-00a7-49bd-8905-8496758ecac9_1024x1024.jpg" alt="Tanuki in der Folklore">
+    </div>
+  </figure>
 
-<figure>
-    
+ 
+  <figure class="align-right">
     <figcaption>
-        <h2>Japanischer Kranich</h2>
-        <p>
-            Der Japanische Kranich, auch Mandschurenkranich genannt (*Grus japonensis*), ist ein Symbol für Glück, Langlebigkeit und Treue. 
-            In der japanischen Kultur gilt er als heilig und taucht oft in Kunstwerken und Origami auf. 
-            Er lebt vor allem in Hokkaido, wo er in Feuchtgebieten überwintert.
-        </p>
-        <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Red-crowned_crane" target="_blank">Wikipedia</a>, 
-        <a href="https://www.britannica.com/animal/red-crowned-crane" target="_blank">Britannica</a></small></p>
+      <h2>Sika-Hirsch</h2>
+      <p>
+        Der Sika-Hirsch (<em>Cervus nippon</em>) ist in Japan weit verbreitet und behält seine weißen Flecken auch als
+        erwachsenes Tier. In Nara laufen die Hirsche frei durch den Park und werden von Besuchern gefüttert; in der
+        Shinto-Tradition gelten sie als heilige Boten der Götter.
+      </p>
+      <p><small>Quelle:
+        <a href="https://en.wikipedia.org/wiki/Sika_deer" target="_blank">Wikipedia</a>,
+        <a href="https://www.japan.travel/en/uk/inspiration/nara-park-deer/" target="_blank">japan.travel</a>
+      </small></p>
     </figcaption>
-    <img id="crane" src="../pics/Japanese_Crane_at_Kushiro_(2753247737).jpg" alt="Japanischer Kranich">
-</figure>
+    <img src="../pics/Cervus_nippon_002.jpg" alt="Sika-Hirsch in Japan">
+  </figure>
 
-<figure>
+ 
+  <figure class="align-left">
     <figcaption>
-        <h2>Japanischer Braunbär</h2>
-        <p>
-            In Japan gibt es zwei Unterarten des Braunbären: den Ussuri-Braunbären (*Ursus arctos lasiotus*) auf Hokkaido 
-            und den kleineren Honshu-Bären (*Ursus arctos japonicus*) auf der Hauptinsel Honshu. 
-            Sie sind die größten Raubtiere Japans und spielen in den Traditionen der Ainu eine wichtige spirituelle Rolle.
-        </p>
-        <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Ussuri_brown_bear" target="_blank">Wikipedia</a>, 
-        <a href="https://en.wikipedia.org/wiki/Ursus_arctos_japonicus" target="_blank">Wikipedia</a></small></p>
+      <h2>Japanischer Fuchs</h2>
+      <p>
+        In Japan kommt u. a. der Ezo-Rotfuchs (<em>Vulpes vulpes schrencki</em>) auf Hokkaidō vor. Füchse sind eng mit
+        der Mythologie verbunden: Die <em>Kitsune</em> gelten als magische Gestaltwandler und werden oft mit dem Gott
+        Inari in Verbindung gebracht. Ein bekannter Ort, um Füchse zu sehen, ist das Zao Fox Village.
+      </p>
+      <p><small>Quelle:
+        <a href="https://en.wikipedia.org/wiki/Ezo_red_fox" target="_blank">Wikipedia</a>,
+        <a href="https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/red-fox" target="_blank">japan-experience.com</a>
+      </small></p>
     </figcaption>
-    <img id="bear" src="../pics/Ussuri_Brown_Bear_Noboribetsu_2019.png" alt="Ussuri Braunbär">
-</figure>
-<figure>
-  <img id="bear2" src="../pics/Ursus_t._japonicus_Ueno_Zoo.jpg" alt="Japanischer Schwarzbär">
-</figure>
+    <div class="side-by-side">
+      <img src="../pics/Vulpes_vulpes_laying_in_snow.jpg" alt="Rotfuchs im Schnee">
+      <img src="../pics/Ezo_red_fox,_Japan;_February_2021_(13,_cropped).jpg" alt="Ezo-Rotfuchs">
+    </div>
+  </figure>
+
+ 
+  <figure class="align-right">
+    <figcaption>
+      <h2>Japanischer Schneeaffe</h2>
+      <p>
+        Japanmakaken (Schneeaffen) sind berühmt dafür, im Winter heiße Quellen zu nutzen (z. B. Jigokudani Monkey Park in Nagano).
+        Sie zählen zu den nördlichst lebenden Primaten (außer dem Menschen) und sind mit dichtem Fell gut an Kälte angepasst.
+      </p>
+      <p><small>Quelle:
+        <a href="https://en.wikipedia.org/wiki/Japanese_macaque" target="_blank">Wikipedia</a>,
+        <a href="https://www.japan.travel/en/uk/inspiration/jigokudani-monkey-park/" target="_blank">japan.travel</a>
+      </small></p>
+    </figcaption>
+    <img src="../pics/A-snow-monkey-in-Jigokudani-Yaen-Koen-aka-snow-monkey-park-in-Japan.jpg" alt="Japanischer Schneeaffe im Onsen">
+  </figure>
+
+  <figure class="align-left">
+    <figcaption>
+      <h2>Japanischer Kranich</h2>
+      <p>
+        Der Rotkronenkranich (<em>Grus japonensis</em>) ist ein Symbol für Glück, Langlebigkeit und Treue. In der japanischen
+        Kultur gilt er als heilig und erscheint häufig in Kunst und Origami. In Japan überwintert er vor allem in den
+        Feuchtgebieten Hokkaidōs.
+      </p>
+      <p><small>Quelle:
+        <a href="https://en.wikipedia.org/wiki/Red-crowned_crane" target="_blank">Wikipedia</a>,
+        <a href="https://www.britannica.com/animal/red-crowned-crane" target="_blank">Britannica</a>
+      </small></p>
+    </figcaption>
+    <img src="../pics/Japanese_Crane_at_Kushiro_(2753247737).jpg" alt="Rotkronenkranich in Kushiro">
+  </figure>
+
+  <figure class="align-right">
+    <figcaption>
+      <h2>Bären in Japan</h2>
+      <p>
+        In Japan leben zwei Arten: der Braunbär (auf Hokkaidō, mit Unterarten wie dem Ussuri-Braunbären
+        <em>Ursus arctos lasiotus</em>) und der Asiatische Schwarzbär (<em>Ursus thibetanus japonicus</em>) auf Honshū
+        und Shikoku. Braunbären sind die größten Raubtiere Japans; der Schwarzbär ist kleiner und zeichnet sich durch
+        den hellen Brustmond aus.
+      </p>
+      <p><small>Quelle:
+        <a href="https://en.wikipedia.org/wiki/Ussuri_brown_bear" target="_blank">Ussuri-Braunbär (Wikipedia)</a>,
+        <a href="https://en.wikipedia.org/wiki/Asian_black_bear#Subspecies" target="_blank">Asiatischer Schwarzbär – Unterarten (Wikipedia)</a>
+      </small></p>
+    </figcaption>
+    <div class="side-by-side">
+      <img src="../pics/Ussuri_Brown_Bear_Noboribetsu_2019.png" alt="Ussuri-Braunbär (Hokkaidō)">
+      <img src="../pics/Ursus_t._japonicus_Ueno_Zoo.jpg" alt="Asiatischer Schwarzbär (U. t. japonicus)">
+    </div>
+  </figure>
+<h2 style="text-align:center; font-family:'Lucida Sans','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;">
+  Übersicht der Tiere
+</h2>
+
+<table>
+  <tr style="background:#333; color:#fff;">
+    <th style="padding:10px; border:1px solid #ccc;">Tier</th>
+    <th style="padding:10px; border:1px solid #ccc;">Japanischer Name</th>
+    <th style="padding:10px; border:1px solid #ccc;">Lebensraum</th>
+    <th style="padding:10px; border:1px solid #ccc;">Besonderheit</th>
+  </tr>
+  <tr>
+    <td style="padding:8px; border:1px solid #ccc;">Tanuki</td>
+    <td style="padding:8px; border:1px solid #ccc;">タヌキ</td>
+    <td style="padding:8px; border:1px solid #ccc;">Wälder & Stadtrand</td>
+    <td style="padding:8px; border:1px solid #ccc;">Yōkai, Glückssymbol</td>
+  </tr>
+  <tr>
+    <td style="padding:8px; border:1px solid #ccc;">Sika-Hirsch</td>
+    <td style="padding:8px; border:1px solid #ccc;">ニホンジカ</td>
+    <td style="padding:8px; border:1px solid #ccc;">Ganz Japan (bes. Nara)</td>
+    <td style="padding:8px; border:1px solid #ccc;">Heilige Boten der Götter</td>
+  </tr>
+  <tr>
+    <td style="padding:8px; border:1px solid #ccc;">Ezo-Rotfuchs</td>
+    <td style="padding:8px; border:1px solid #ccc;">キタキツネ</td>
+    <td style="padding:8px; border:1px solid #ccc;">Hokkaidō</td>
+    <td style="padding:8px; border:1px solid #ccc;">Kitsune-Mythologie</td>
+  </tr>
+  <tr>
+    <td style="padding:8px; border:1px solid #ccc;">Schneeaffe</td>
+    <td style="padding:8px; border:1px solid #ccc;">ニホンザル</td>
+    <td style="padding:8px; border:1px solid #ccc;">Nagano, Gebirge</td>
+    <td style="padding:8px; border:1px solid #ccc;">Baden in heißen Quellen</td>
+  </tr>
+  <tr>
+    <td style="padding:8px; border:1px solid #ccc;">Kranich</td>
+    <td style="padding:8px; border:1px solid #ccc;">タンチョウ</td>
+    <td style="padding:8px; border:1px solid #ccc;">Hokkaidō (Feuchtgebiete)</td>
+    <td style="padding:8px; border:1px solid #ccc;">Symbol für Glück & Langlebigkeit</td>
+  </tr>
+  <tr>
+    <td style="padding:8px; border:1px solid #ccc;">Bären</td>
+    <td style="padding:8px; border:1px solid #ccc;">ヒグマ / ツキノワグマ</td>
+    <td style="padding:8px; border:1px solid #ccc;">Hokkaidō & Honshū</td>
+    <td style="padding:8px; border:1px solid #ccc;">Größte Raubtiere Japans</td>
+  </tr>
+</table>
+
+
+  <footer>
+    <p>© 2025 Tseten Sharlhey - Weeb Zoo</p>
+  </footer>
 </body>
 </html>
