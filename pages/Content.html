@@ -17,7 +17,13 @@
                 background-color: antiquewhite;
 
         }
+h2 {font-size: 30px;
 
+}
+
+figcaption {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-size: 20px;
+}
  #navi {
   list-style-type: none;
   margin: 20px;
@@ -43,28 +49,31 @@
 }
 
 img {width: 600px;
-
+    
 }
-#tanuki {float: right;
-          margin: 100px 200px;
+#tanuki {
 }
 #deer {float: left;
-        margin: 500px 0px 0px 100px;
+        
 }
 
 #yokai {margin: 200px;
 
 }
 
-#fox {float: initial;
+#fox {float: right;
+    margin-top: 100px;
 
 }
 
 #ezo {float: right;
-  margin: 100px;
+  margin-top: 100px;
 
 }
 
+#monkey {float: right;
+          
+}
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -80,9 +89,7 @@ img {width: 600px;
   <li><a href="Contact.html">Kontakt</a></li>
 </ul>
 
-<figure id="tanuki">
-    <img src="../pics/Tanuki_in_Higashiyama_Zoo_-_2.jpg" alt="Japanischer Waschbärhund">
-    <img src="../pics/yokai_tanuki_be0e5274-00a7-49bd-8905-8496758ecac9_1024x1024.jpg" alt="Tanuki in der Folklore">
+<figure>
     <figcaption>
         <h2>Tanuki (Japanischer Marderhund)</h2>
         <p>
@@ -94,11 +101,13 @@ img {width: 600px;
         <p><small>Quelle: <a href="https://sakura.co/blog/tanuki-magic-exploring-japans-raccoon-dog-folklore" target="_blank">sakura.co</a>, 
         <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog" target="_blank">Wikipedia</a></small></p>
     </figcaption>
+    <img id="tanuki" src="../pics/Tanuki_in_Higashiyama_Zoo_-_2.jpg" alt="Japanischer Waschbärhund">
+    <img id="tanuki2" src="../pics/yokai_tanuki_be0e5274-00a7-49bd-8905-8496758ecac9_1024x1024.jpg" alt="Tanuki in der Folklore">
+  
 </figure>
 
-<figure id="deer">
-    <img src="../pics/Cervus_nippon_002.jpg" alt="Sika Reh">
-    <figcaption>
+<figure>
+   <figcaption>
         <h2>Sika-Hirsch</h2>
         <p>
             Der Sika-Hirsch (*Cervus nippon*) ist in Japan weit verbreitet und behält seine weißen Flecken auch im Erwachsenenalter. 
@@ -108,12 +117,11 @@ img {width: 600px;
         <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Sika_deer" target="_blank">Wikipedia</a>, 
         <a href="https://www.japan.travel/en/uk/inspiration/nara-park-deer/" target="_blank">japan.travel</a></small></p>
     </figcaption>
+    <img id="deer" src="../pics/Cervus_nippon_002.jpg" alt="Sika Reh">
 </figure>
 
-<figure id="fox">
-    <img src="../pics/Vulpes_vulpes_laying_in_snow.jpg" alt="Rotfuchs">
-    <img src="../pics/Ezo_red_fox,_Japan;_February_2021_(13,_cropped).jpg" alt="Ezo Rotfuchs">
-    <figcaption>
+<figure>
+        <figcaption>
         <h2>Japanischer Fuchs</h2>
         <p>
             In Japan kommt vor allem der Ezo-Rotfuchs (*Vulpes vulpes schrencki*) auf Hokkaido vor. 
@@ -124,10 +132,12 @@ img {width: 600px;
         <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Ezo_red_fox" target="_blank">Wikipedia</a>, 
         <a href="https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/red-fox" target="_blank">japan-experience.com</a></small></p>
     </figcaption>
+    <img id="fox" src="../pics/Vulpes_vulpes_laying_in_snow.jpg" alt="Rotfuchs">
+    <img id="fox2" src="../pics/Ezo_red_fox,_Japan;_February_2021_(13,_cropped).jpg" alt="Ezo Rotfuchs">
+
 </figure>
 
-<figure id="monkey">
-    <img src="../pics/A-snow-monkey-in-Jigokudani-Yaen-Koen-aka-snow-monkey-park-in-Japan.jpg" alt="Japanischer Schneeaffe">
+<figure>
     <figcaption>
         <h2>Japanischer Schneeaffe</h2>
         <p>
@@ -138,10 +148,11 @@ img {width: 600px;
         <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Japanese_macaque" target="_blank">Wikipedia</a>, 
         <a href="https://www.japan.travel/en/uk/inspiration/jigokudani-monkey-park/" target="_blank">japan.travel</a></small></p>
     </figcaption>
+     <img id="monkey" src="../pics/A-snow-monkey-in-Jigokudani-Yaen-Koen-aka-snow-monkey-park-in-Japan.jpg" alt="Japanischer Schneeaffe">
 </figure>
 
-<figure id="crane">
-    <img src="../pics/Japanese_Crane_at_Kushiro_(2753247737).jpg" alt="Japanischer Kranich">
+<figure>
+    
     <figcaption>
         <h2>Japanischer Kranich</h2>
         <p>
@@ -152,11 +163,10 @@ img {width: 600px;
         <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Red-crowned_crane" target="_blank">Wikipedia</a>, 
         <a href="https://www.britannica.com/animal/red-crowned-crane" target="_blank">Britannica</a></small></p>
     </figcaption>
+    <img id="crane" src="../pics/Japanese_Crane_at_Kushiro_(2753247737).jpg" alt="Japanischer Kranich">
 </figure>
 
-<figure id="bear">
-    <img src="../pics/Ussuri_Brown_Bear_Noboribetsu_2019.png" alt="Ussuri Braunbär">
-    <img src="../pics/Ursus_t._japonicus_Ueno_Zoo.jpg" alt="Japanischer Braunbär">
+<figure>
     <figcaption>
         <h2>Japanischer Braunbär</h2>
         <p>
@@ -167,7 +177,10 @@ img {width: 600px;
         <p><small>Quelle: <a href="https://en.wikipedia.org/wiki/Ussuri_brown_bear" target="_blank">Wikipedia</a>, 
         <a href="https://en.wikipedia.org/wiki/Ursus_arctos_japonicus" target="_blank">Wikipedia</a></small></p>
     </figcaption>
+    <img id="bear" src="../pics/Ussuri_Brown_Bear_Noboribetsu_2019.png" alt="Ussuri Braunbär">
 </figure>
-
+<figure>
+  <img id="bear2" src="../pics/Ursus_t._japonicus_Ueno_Zoo.jpg" alt="Japanischer Schwarzbär">
+</figure>
 </body>
 </html>

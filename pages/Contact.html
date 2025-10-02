@@ -18,7 +18,11 @@
                 background-color: antiquewhite;
 
         }
+        
+        main {text-align:center; 
+            margin:50px;
 
+        }
         #navi {
   list-style-type: none;
   margin: 20px;
@@ -55,5 +59,25 @@
         <li><a href="../index.html">Startseite</a></li>
     <li><a href="Content.html">Inhalt</a></li>
   <li><a href="about.html">Über Uns</a></li>
+
+  <main>
+    <h1>Kontakt</h1>
+    <p>Wenn du Fragen oder Feedback zum Weeb Zoo hast, kannst du uns hier schreiben:</p>
+
+    <form style="max-width:400px; margin:auto; text-align:left; background:white; padding:20px; border-radius:8px;">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" style="width:100%; margin-bottom:10px;"><br>
+
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email" style="width:100%; margin-bottom:10px;"><br>
+
+        <label for="msg">Nachricht:</label><br>
+        <textarea id="msg" name="msg" rows="4" style="width:100%; margin-bottom:10px;"></textarea><br>
+
+        <button type="submit" style="padding:10px 20px; background:#333; color:white; border:none; cursor:pointer;">
+            Absenden
+        </button>
+    </form>
+</main>
 </body>
 </html>
